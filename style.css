@@ -708,7 +708,7 @@ footer{
       .instructor-btn{
         position: absolute !important;
         top: 31% !important;
-        left: 18% !important;
+        left: 10% !important;
     }
 
 }
@@ -717,6 +717,7 @@ footer{
 .buttons{
     display: none;
 }
+
 
   .instructor-card{
     min-width: 100vw !important;
@@ -732,7 +733,7 @@ footer{
   .instructor-btn{
     position: absolute !important;
     top: 31% !important;
-    left: 15% !important;
+    left: 10% !important;
 }
   .ins-content{
     font-size: 1.8rem !important;
