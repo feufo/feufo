@@ -736,6 +736,7 @@ footer{
 }
 .btns{
     font-size: 5rem !important;
+	display:block !important;
 }
 .client-profile > img{
     width: 20vw !important;
