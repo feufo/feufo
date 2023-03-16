@@ -717,7 +717,9 @@ footer{
 .buttons{
     display: none;
 }
-
+.client-profile > img{
+    width: 20vw !important;
+}
 
   .instructor-card{
     min-width: 100vw !important;
@@ -726,7 +728,7 @@ footer{
   }
   .client-profile{
     position: relative !important;
-    bottom: 30vw !important;
+    bottom: 40vw !important;
     
   }
 
