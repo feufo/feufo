@@ -731,6 +731,22 @@ footer{
   display: flex;
   
 }
+.hero-btns{
+    width: 70vw !important;
+margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0 !important;
+
+}
+.hero-btns a{
+display: inline-block;
+width: 40vw !important;
+height: 42px !important;
+font-size: 1rem !important;
+}
 .hero-img{
     width: 80vw !important;
 }
@@ -744,21 +760,7 @@ footer{
     width: 80vw !important;
     margin-bottom: 10vw !important;
 }
-/* .hero-btns{
- 
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 
-}
-.hero-btns a{
-    font-size: 1.8rem !important;
-display: inline-block;
-min-width: 40vw;
-min-height: 50px;
-} */
 
 #member{
     font-size: 1.5rem !important;
