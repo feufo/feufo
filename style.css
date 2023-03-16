@@ -2,6 +2,9 @@
 nav a:hover{
     color: #E6E6E6;
 }
+a{
+    text-decoration: none !important;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -273,6 +276,7 @@ background-repeat: no-repeat;
 
 
 }
+
 .border {
 	font-size: 1.6rem;
 	display: grid;
@@ -717,6 +721,9 @@ footer{
 .buttons{
     display: none;
 }
+.feufo-img {
+    width: 80vw !important;
+}
 .role-card h4{
     font-size: 1.8vw !important;
   
@@ -724,8 +731,15 @@ footer{
   display: flex;
   
 }
+.btns{
+    font-size: 5rem !important;
+}
 .client-profile > img{
     width: 20vw !important;
+}
+.about-detail video{
+    width: 80vw !important;
+    margin-bottom: 10vw !important;
 }
 
   .instructor-card{
@@ -767,7 +781,12 @@ footer{
 }
 .interview-img{
     position: relative;
-    right: -10px;
+    right: 60px;
+}
+#hire-img{
+    margin: 2vw 0 0 0;
+    position: relative;
+    right: 30px !important;
 }
 .hero-section .right{
     margin-left:100px;
@@ -782,7 +801,7 @@ footer{
 }
 
 .role-heading ,.role-title{
-    font-size: 10px !important;
+    font-size: 15px !important;
 }
 .role-icons{
     flex-direction: row;
@@ -801,7 +820,7 @@ footer{
 
 }
 .icons span{
-    font-size: 0.7rem !important;
+    font-size: 1rem !important;
 }
 .box-content p{
     width: 100%;
