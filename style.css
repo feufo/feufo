@@ -731,6 +731,9 @@ footer{
   display: flex;
   
 }
+.hero-img{
+    width: 80vw !important;
+}
 .btns{
     font-size: 5rem !important;
 }
@@ -740,6 +743,12 @@ footer{
 .about-detail video{
     width: 80vw !important;
     margin-bottom: 10vw !important;
+}
+.hero-btns a{
+    font-size: 1.5rem !important;
+}
+#member{
+    font-size: 1.5rem !important;
 }
 
   .instructor-card{
@@ -919,6 +928,7 @@ footer div{
     margin: 15px 0;
     font-size: 20px !important;
 }
+
 .book-detail .client-detail p{
     width: 80%;
 }
