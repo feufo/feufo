@@ -717,6 +717,13 @@ footer{
 .buttons{
     display: none;
 }
+.role-card h4{
+    font-size: 1.8vw !important;
+  
+  justify-content: space-around;
+  display: flex;
+  
+}
 .client-profile > img{
     width: 20vw !important;
 }
@@ -777,7 +784,7 @@ footer{
     flex-direction: column;
 }
 .role-heading ,.role-title{
-    font-size: 1vw;
+    font-size: 10px !important;
 }
 .role-icons{
     flex-direction: row;
@@ -792,6 +799,8 @@ footer{
 .role-card{
     width: 80%;
     margin: 10px 0;
+    min-height: 50px !important;
+
 }
 .icons span{
     font-size: 0.7rem !important;
@@ -891,7 +900,7 @@ footer div{
 }
 .role-card h4{
     margin: 15px 0;
-    font-size: 1vw;
+    font-size: 20px !important;
 }
 .book-detail .client-detail p{
     width: 80%;
@@ -913,6 +922,7 @@ width: 80%;
     .icon-title{
         font-size: 10px !important;
     }
+
 }
 /* Big screen devices (889px and above) */
 @media (min-width:768px) and (max-width: 100px) {
@@ -1079,3 +1089,16 @@ color: #F5F5F5;
     }
     .marquee:before, .marquee:after { width: 5rem; }
   }
+
+  @media only screen and (max-width: 768px) {
+    .buttons{
+        display: none;
+    }
+    .role-card h4{
+        font-size: 1.5vw !important;
+      
+      justify-content: space-around;
+      display: flex;
+      
+    }
+}
