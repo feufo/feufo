@@ -736,7 +736,6 @@ footer{
 }
 .btns{
     font-size: 5rem !important;
-	display:block !important;
 }
 .client-profile > img{
     width: 20vw !important;
@@ -745,9 +744,22 @@ footer{
     width: 80vw !important;
     margin-bottom: 10vw !important;
 }
-.hero-btns a{
-    font-size: 1.3rem !important;
+.hero-btns{
+ 
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
+.hero-btns a{
+    font-size: 1.8rem !important;
+display: inline-block;
+min-width: 40vw;
+min-height: 50px;
+}
+
 #member{
     font-size: 1.5rem !important;
 }
