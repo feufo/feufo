@@ -763,13 +763,28 @@ font-size: 1rem !important;
 
 
 #member{
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
 
 }
 #partner{
-
-    position: absolute;
-    left: 21vw;
+    height: 80px;
+align-items: center;
+   position: absolute;
+   left: 0;
+   width: 100vw;display: flex;justify-content: center;
+}
+#partner a{
+    display: inline-block;
+width: 40vw !important;
+height: 42px !important;
+font-size: 1rem !important;
+position: absolute;
+top: -40%;
+left: 25%;
+}
+#or{
+    position: relative;
+    right: 1vw;
 }
 
   .instructor-card{
