@@ -764,6 +764,12 @@ font-size: 1rem !important;
 
 #member{
     font-size: 1.5rem !important;
+
+}
+#partner{
+
+    position: absolute;
+    left: 21vw;
 }
 
   .instructor-card{
@@ -849,9 +855,7 @@ font-size: 1rem !important;
 .box-content p{
     width: 100%;
 }
-.member{
-    margin: 0;
-}
+
 .hero-section .left,.right{
     width: 100%;
  
@@ -896,10 +900,6 @@ margin-left: 70px;
 .btns{
     font-size: 1vw !important;
 }
-.member{
-    position: relative;
-    top: 1vw;
-}
 
 .content ,.about-detail ,.hire-section{
   
@@ -934,6 +934,10 @@ footer div{
 }
 .logo{
     margin: 20px 0;
+    position: relative !important;
+    left: 1px !important;
+ 
+
 }
 .book-detail{
     width: 100%;
