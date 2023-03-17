@@ -704,7 +704,7 @@ footer{
       .ins-content{
         font-size: 1.8rem !important;
       }
-      .instructor-card{
+      /* .instructor-card{
         min-width: 100vw !important;
         margin:0 50vw;
     
@@ -713,7 +713,7 @@ footer{
         position: absolute !important;
         top: 31% !important;
         left: 10% !important;
-    }
+    } */
 
 }
 
