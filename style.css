@@ -2,9 +2,6 @@
 nav a:hover{
     color: #E6E6E6;
 }
-a{
-    text-decoration: none !important;
-}
 ul {
     margin: 0;
     padding: 0;
@@ -276,7 +273,6 @@ background-repeat: no-repeat;
 
 
 }
-
 .border {
 	font-size: 1.6rem;
 	display: grid;
@@ -332,18 +328,15 @@ right: 5% !important;
  
     text-align: center;
 }
-.instructor-btn{
-border: none;
-display: inline-block;
-position: absolute !important;
-top: 30% !important;
-left: 1% !important;
-outline: none;
-  width: 100% !important;
+.instructor-btn a{
+    display: inline-block;
+  padding: 8px 18px;
     border-radius: 30px;
-  text-decoration: none;
-
-  
+    text-decoration: none;
+ color: #F5F5F5;
+    position: absolute !important;
+    top: 28% !important;
+    left: 23% !important;
     background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
 }
 .or-section{
@@ -437,7 +430,15 @@ line-height: 30px;
     width: 100%;
   
 }
-
+/* .interview-section{
+    flex-direction: row-reverse;
+    display: flex;
+   
+}
+.interview-section .left-box{
+ 
+    margin-left: 200px;
+} */
 .role-section{
     text-align: center;
     color: #FFFFFF;
@@ -689,7 +690,19 @@ footer{
     width: 80%;
 }
 
+/* Rs desgin */
 
+
+
+/* For extremely small screen devices (595px and below) */
+/* @media(min-width:300px) and (max-width: 700px) {
+.flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+} */
+ 
 /* Small screen devices (600px and above) */
 .feufo-img{
     width: 30vw !important;
@@ -698,125 +711,15 @@ footer{
     width: 80%;
 }
 /* Medium screen devices (768px and above) */
+@media only screen and (max-width: 500px) {
 
-@media only screen and (max-width:800px){
-
-      .ins-content{
-        font-size: 1.8rem !important;
-      }
-      .instructor-card{
-        min-width: 100vw !important;
-        margin:0 50vw;
-    
-      }
-      .instructor-btn{
-        position: absolute !important;
-        top: 31% !important;
-        left: 10% !important;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-.buttons{
-    display: none;
-}
-
-.feufo-img {
-    width: 80vw !important;
-}
-.role-card h4{
-    font-size: 1.8vw !important;
-  
-  justify-content: space-around;
-  display: flex;
-  
-}
-.hero-btns{
-    width: 70vw !important;
-margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center !important;
-    padding: 0 !important;
-
-}
-.hero-btns a{
-display: inline-block;
-width: 40vw !important;
-height: 42px !important;
-font-size: 1rem !important;
-}
-.hero-img{
-    width: 80vw !important;
-}
-.btns{
-    font-size: 5rem !important;
-}
-.client-profile > img{
-    width: 20vw !important;
-}
-.about-detail video{
-    width: 80vw !important;
-    margin-bottom: 10vw !important;
-}
-
-
-#member{
-    font-size: 1.3rem !important;
-
-}
-#partner{
-    height: 80px;
-align-items: center;
-   position: relative;
-   right: 60px !important;
-   width: 100vw;display: flex;justify-content: center;
-}
-#partner a{
-    display: inline-block;
-width: 40vw !important;
-height: 42px !important;
-font-size: 1rem !important;
-position: absolute;
-top: -40%;
-left: 25%;
-}
-#or{
-    position: relative;
-    right: 4vw !important;
-}
-
-  .instructor-card{
-    min-width: 80vw !important;
-    margin:0 50vw;
-
-  }
-  .client-profile{
-    position: relative !important;
-    bottom: 40vw !important;
-    
-  }
-
-  .instructor-btn{
-    position: absolute !important;
-    top: 31% !important;
-    left: 10% !important;
-}
-  .ins-content{
-    font-size: 1.8rem !important;
-  }
    .carousel{
-
+    border: 1px solid orange !important;
   display: flex !important;
   justify-content: space-around !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
 
-   }
-   .ins-content{
-    font-size: 1.8rem !important;
    }
    .instructor-card{
     width: 90% !important;
@@ -827,12 +730,7 @@ left: 25%;
 }
 .interview-img{
     position: relative;
-    right: 60px;
-}
-#hire-img{
-    margin: 2vw 0 0 0;
-    position: relative;
-    right: 30px !important;
+    right: -10px;
 }
 .hero-section .right{
     margin-left:100px;
@@ -845,9 +743,11 @@ left: 25%;
 .left-box,.right-box{
     width: 80%;
 }
-
+.role-card{
+    flex-direction: column;
+}
 .role-heading ,.role-title{
-    font-size: 15px !important;
+    font-size: 1vw;
 }
 .role-icons{
     flex-direction: row;
@@ -860,18 +760,18 @@ left: 25%;
     margin: 20px 0 0 0;
 }
 .role-card{
-    min-width: 100vw;
+    width: 80%;
     margin: 10px 0;
-    min-height: 50px !important;
-
 }
 .icons span{
-    font-size: 1rem !important;
+    font-size: 0.7rem !important;
 }
 .box-content p{
     width: 100%;
 }
-
+.member{
+    margin: 0;
+}
 .hero-section .left,.right{
     width: 100%;
  
@@ -916,6 +816,10 @@ margin-left: 70px;
 .btns{
     font-size: 1vw !important;
 }
+.member{
+    position: relative;
+    top: 1vw;
+}
 
 .content ,.about-detail ,.hire-section{
   
@@ -950,10 +854,6 @@ footer div{
 }
 .logo{
     margin: 20px 0;
-    position: relative !important;
-    left: 1px !important;
- 
-
 }
 .book-detail{
     width: 100%;
@@ -961,9 +861,8 @@ footer div{
 }
 .role-card h4{
     margin: 15px 0;
-    font-size: 20px !important;
+    font-size: 1vw;
 }
-
 .book-detail .client-detail p{
     width: 80%;
 }
@@ -978,13 +877,11 @@ width: 80%;
 #or{
     width: 50vw
 }
-
 }
 @media(max-width:460px){
     .icon-title{
         font-size: 10px !important;
     }
-
 }
 /* Big screen devices (889px and above) */
 @media (min-width:768px) and (max-width: 100px) {
@@ -1004,7 +901,11 @@ width: 80%;
       
     }
 }
+ 
+/* Extra big screen devices (1200px and above)
+@media only screen and (min-width: 1200px) {
 
+} */
 
 
 .role-icons{
@@ -1015,8 +916,8 @@ width: 80%;
     align-self: flex-start;
 }
 .role-card h4{
-    font-size: 12px !important;
-  
+    font-size: 0.8vw !important;
+  }
   justify-content: space-around;
   display: flex;
   
@@ -1079,89 +980,3 @@ color: #F5F5F5;
   left: 23% !important;
   background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
 }
-
-:root {
-    --marquee-width: 160vw !important;
-    --marquee-height: 130px;
-    /* --marquee-elements: 12; */ /* defined with JavaScript */
-    --marquee-elements-displayed:6;
-    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
-    --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
-  }
-  
-  .marquee {
-    /* width: var(--marquee-width); */
-    /* height: var(--marquee-height); */
-    
-  
-    color: #eee;
-    overflow: hidden;
-    position: relative;
-  }
-  .marquee:before, .marquee:after {
-    position: absolute;
-    top: 0;
-    width: 10rem;
-    height: 100%;
-    content: "";
-    z-index: 1;
-  }
-  .marquee:before {
-    left: 0;
-   
-  }
-  .marquee:after {
-    right: 0;
-    
-  }
-  .marquee-content {
-    list-style: none;
-    height: 100%;
-    width: 150vw !important;
-    display: flex;
-    animation: scrolling var(--marquee-animation-duration) linear infinite;
-  }
-  /* .marquee-content:hover {
-    animation-play-state: paused;
-  } */
-  @keyframes scrolling {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
-  }
-  .marquee-content li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-justify-content: space-around !important;
-    flex-shrink: 0;
-    width: var(--marquee-element-width);
-    max-height: 100%;
-  /*   font-size: calc(var(--marquee-height)*3/4); /* 5rem; */ */
-    white-space: nowrap;
-  }
-  
-
-  
-  @media (max-width: 700px) {
-
-    :root {
-      --marquee-width: 150vw;
-      --marquee-height: 16vh;
-      --marquee-elements-displayed:1;
-    }
-    .marquee:before, .marquee:after { width: 5rem; }
-  }
-
-    
-  @media (max-width: 1161px) {
-
-    :root {
-      --marquee-width: 150vw;
-      --marquee-height: 16vh;
-      --marquee-elements-displayed:4;
-    }
-    .marquee:before, .marquee:after { width: 5rem; }
-  }
-
- 
- 
