@@ -1080,7 +1080,7 @@ color: #F5F5F5;
 }
 
 :root {
-    --marquee-width: 150vw !important;
+    --marquee-width: 200vw !important;
     --marquee-height: 130px;
     /* --marquee-elements: 12; */ /* defined with JavaScript */
     --marquee-elements-displayed: 5;
@@ -1144,7 +1144,7 @@ justify-content: space-around !important;
   @media (max-width: 600px) {
 
     :root {
-      --marquee-width: 100vw;
+      --marquee-width: 150vw;
       --marquee-height: 16vh;
       --marquee-elements-displayed:1;
     }
