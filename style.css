@@ -769,8 +769,8 @@ font-size: 1rem !important;
 #partner{
     height: 80px;
 align-items: center;
-   position: absolute;
-   left: 0;
+   position: relative;
+   right: 50px !important;
    width: 100vw;display: flex;justify-content: center;
 }
 #partner a{
