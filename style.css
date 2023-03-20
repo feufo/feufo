@@ -2,6 +2,7 @@
 nav a:hover{
     color: #E6E6E6;
 }
+
 a{
     text-decoration: none !important;
 }
@@ -713,7 +714,9 @@ footer{
     display: none;
 }
 
-
+#book_demo{
+    font-size: 1.2rem !important;
+}
 
 .feufo-img {
     width: 80vw !important;
@@ -873,7 +876,6 @@ left: 25%;
 
 }
 .feufo-img{
-    /* margin: 40px 20px 0 0; */
     position: relative;
 }
 
@@ -1035,19 +1037,7 @@ text-decoration: none !important;
 
   text-align: center;
 }
-.instructor-btn a{
-  display: inline-block;
-padding: 8px 18px;
-  border-radius: 30px;
-  text-decoration: none;
-color: #F5F5F5;
-  position: absolute !important;
-  left: 25% !important;
 
-  
-
-  background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
-}
 
 :root {
     --marquee-width: 160vw !important;
@@ -1114,9 +1104,9 @@ justify-content: space-around !important;
   @media (max-width: 800px) {
 
     :root {
-      --marquee-width: 500vw !important;
+      --marquee-width: 300vw !important;
       --marquee-height: 16vh !important;
-      --marquee-elements-displayed:6;
+      --marquee-elements-displayed:3;
     }
     .instructor-btn{
         position: relative !important;
