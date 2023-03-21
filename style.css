@@ -1120,7 +1120,7 @@ justify-content: space-around !important;
     :root {
         --marquee-width: 400vw !important;
         --marquee-height: 16vh !important;
-        --marquee-elements-displayed:3 !important;
+        --marquee-elements-displayed:5 !important;
       }
   }
 
