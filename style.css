@@ -1104,7 +1104,7 @@ justify-content: space-around !important;
   @media (max-width: 800px) {
 
     :root {
-      --marquee-width: 300vw !important;
+      --marquee-width: 350vw !important;
       --marquee-height: 16vh !important;
       --marquee-elements-displayed:3;
     }
