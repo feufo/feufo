@@ -1106,7 +1106,7 @@ justify-content: space-around !important;
     :root {
       --marquee-width: 400vw !important;
       --marquee-height: 16vh !important;
-      --marquee-elements-displayed:3;
+      --marquee-elements-displayed:6 !important;
     }
     .instructor-btn{
         position: relative !important;
@@ -1114,6 +1114,14 @@ justify-content: space-around !important;
         left: 10vw !important;
     }
     .marquee:before, .marquee:after { width: 5rem; }
+  }
+  @media(max-width:600px){
+    
+    :root {
+        --marquee-width: 400vw !important;
+        --marquee-height: 16vh !important;
+        --marquee-elements-displayed:3 !important;
+      }
   }
 
 
