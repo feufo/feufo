@@ -1,4 +1,12 @@
 
+body,html{
+    font-family: 'Rubik', sans-serif !important;
+    background: linear-gradient(180deg, #121221 0%, #0A4A96 100%);
+    background: url('./images/Rectangle-1-min.png');
+    background-repeat: no-repeat;
+    min-height: 200vh;
+    font-weight: 200;
+}
 nav a:hover{
     color: #E6E6E6;
 }
@@ -168,14 +176,7 @@ html,body{
     width: 90%;
     margin: 50px auto;
 }
-body,html{
-    font-family: 'Rubik', sans-serif !important;
-    background: linear-gradient(180deg, #121221 0%, #0A4A96 100%);
-    background: url('./images/Rectangle-1.png');
-    background-repeat: no-repeat;
-    min-height: 200vh;
-    font-weight: 200;
-}
+
 .flex{
     display: flex;
     align-items: center;
