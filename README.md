@@ -1,5 +1,5 @@
 ### Hi there 👋
-We are currently looking people to participate and help us build our product, Our goal is to Incentivize JobSeekers (Enginners Especially once they get hired through us).
+We are currently looking people to participate and help us build our product, Our goal is to Incentivize JobSeekers (Engineers Especially once they get hired through us).
 <!--
 **feufo/feufo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
